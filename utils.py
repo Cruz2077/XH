@@ -22,7 +22,7 @@ class HX:
     @staticmethod
     def LB(XH, ZL):
 
-        markdown_content = HX.extract_markdown_from_ipynb(r"D:\\DesktopFiles\\risk\\test\\64.ipynb" )
+        markdown_content = HX.extract_markdown_from_ipynb(r"./64.ipynb" )
         # 创建并启动Quiz应用
         root = tk.Tk()
         app = HX(root, markdown_content, XH, ZL)
